@@ -1,0 +1,40 @@
+name: kernel-aws
+modulist:
+  - kernel/arch/x86/crypto/crc32-pclmul.ko.xz
+  - kernel/arch/x86/crypto/crc32c-intel.ko.xz
+  - kernel/arch/x86/crypto/crct10dif-pclmul.ko.xz
+  - kernel/arch/x86/crypto/ghash-clmulni-intel.ko.xz
+  - kernel/arch/x86/events/rapl.ko.xz
+  - kernel/drivers/ata/ata_generic.ko.xz
+  - kernel/drivers/ata/ata_piix.ko.xz
+  - kernel/drivers/ata/libata.ko.xz
+  - kernel/drivers/block/xen-blkfront.ko.xz
+  - kernel/drivers/gpu/drm/drm.ko.xz
+  - kernel/drivers/gpu/drm/drm_kms_helper.ko.xz
+  - kernel/drivers/gpu/drm/tiny/cirrus.ko.xz
+  - kernel/drivers/i2c/busses/i2c-piix4.ko.xz
+  - kernel/drivers/input/misc/pcspkr.ko.xz
+  - kernel/drivers/input/serio/serio_raw.ko.xz
+  - kernel/drivers/md/dm-log.ko.xz
+  - kernel/drivers/md/dm-mirror.ko.xz
+  - kernel/drivers/md/dm-mod.ko.xz
+  - kernel/drivers/md/dm-region-hash.ko.xz
+  - kernel/drivers/media/cec/core/cec.ko.xz
+  - kernel/drivers/net/ethernet/amazon/ena/ena.ko.xz
+  - kernel/drivers/net/xen-netfront.ko.xz
+  - kernel/drivers/nvme/host/nvme.ko.xz
+  - kernel/drivers/powercap/intel_rapl_common.ko.xz
+  - kernel/drivers/powercap/intel_rapl_msr.ko.xz
+  - kernel/drivers/video/fbdev/core/fb_sys_fops.ko.xz
+  - kernel/drivers/video/fbdev/core/syscopyarea.ko.xz
+  - kernel/drivers/video/fbdev/core/sysfillrect.ko.xz
+  - kernel/drivers/video/fbdev/core/sysimgblt.ko.xz
+  - kernel/fs/fat/fat.ko.xz
+  - kernel/fs/fat/vfat.ko.xz
+  - kernel/fs/fuse/fuse.ko.xz
+  - kernel/fs/xfs/xfs.ko.xz
+  - kernel/lib/libcrc32c.ko.xz
+  - kernel/net/rfkill/rfkill.ko.xz
+addfiles:
+  - /usr/lib/firmware/amd-ucode.*
+  - /usr/lib/firmware/amd/.*
