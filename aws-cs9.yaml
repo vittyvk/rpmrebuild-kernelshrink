@@ -15,10 +15,7 @@ modulist:
   - kernel/drivers/i2c/busses/i2c-piix4.ko.xz
   - kernel/drivers/input/misc/pcspkr.ko.xz
   - kernel/drivers/input/serio/serio_raw.ko.xz
-  - kernel/drivers/md/dm-log.ko.xz
-  - kernel/drivers/md/dm-mirror.ko.xz
-  - kernel/drivers/md/dm-mod.ko.xz
-  - kernel/drivers/md/dm-region-hash.ko.xz
+  - kernel/drivers/md/.*.ko.xz
   - kernel/drivers/media/cec/core/cec.ko.xz
   - kernel/drivers/net/ethernet/amazon/ena/ena.ko.xz
   - kernel/drivers/net/xen-netfront.ko.xz
@@ -34,6 +31,9 @@ modulist:
   - kernel/fs/fuse/fuse.ko.xz
   - kernel/fs/xfs/xfs.ko.xz
   - kernel/lib/libcrc32c.ko.xz
+  - kernel/net/ipv4/netfilter/.*.ko.xz
+  - kernel/net/ipv6/netfilter/.*.ko.xz
+  - kernel/net/netfilter/.*.ko.xz
   - kernel/net/rfkill/rfkill.ko.xz
 addfiles:
   - /usr/lib/firmware/amd-ucode.*
